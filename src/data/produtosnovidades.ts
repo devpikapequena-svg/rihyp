@@ -41,7 +41,7 @@ export const produtosNovidades: ProdutoNovidade[] = [
     slug: 'quadriciclo-atv-6v-amarelo-bandeirante',
     title: 'Mini Veículo Elétrico - 6V - Quadriciclo ATV - Amarelo - Bandeirante',
     img: 'https://rihappynovo.vtexassets.com/arquivos/ids/6434519-600-auto?v=638610852551100000&width=600&height=auto&aspect=true 600w, https://rihappynovo.vtexassets.com/arquivos/ids/6434519-800-auto?v=638610852551100000&width=800&height=auto&aspect=true 800w, https://rihappynovo.vtexassets.com/arquivos/ids/6434519-1200-auto?v=638610852551100000&width=1200&height=auto&aspect=true 1200w',
-    price: 'R$ 899,90',
+    price: 'R$ 290,90',
     discount: '-80%',
   },
   {
