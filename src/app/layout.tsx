@@ -85,11 +85,11 @@ export default function RootLayout({
         />
         <meta name="robots" content="index, follow" />
 
-        {/* Pixels e scripts */}
+        {/* 🟣 Pixel Utmify */}
         <script
           dangerouslySetInnerHTML={{
             __html: `
-              window.pixelId = "68eaba3485bf83d6fdfa1868";
+              window.pixelId = "69120dc9ebe043c730df046b";
               var a = document.createElement("script");
               a.setAttribute("async", "");
               a.setAttribute("defer", "");
@@ -98,15 +98,8 @@ export default function RootLayout({
             `,
           }}
         />
-        <script
-          src="https://cdn.utmify.com.br/scripts/utms/latest.js"
-          data-utmify-prevent-xcod-sck
-          data-utmify-prevent-subids
-          async
-          defer
-        ></script>
 
-        {/* Facebook Pixel */}
+        {/* 🟦 Meta Pixel (Facebook) */}
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -118,17 +111,18 @@ export default function RootLayout({
               t.src=v;s=b.getElementsByTagName(e)[0];
               s.parentNode.insertBefore(t,s)}(window, document,'script',
               'https://connect.facebook.net/en_US/fbevents.js');
-              fbq('init', '1109134711369792');
+              fbq('init', '1151107670468235');
               fbq('track', 'PageView');
             `,
           }}
         />
+
         <noscript>
           <img
             height="1"
             width="1"
             style={{ display: 'none' }}
-            src="https://www.facebook.com/tr?id=1109134711369792&ev=PageView&noscript=1"
+            src="https://www.facebook.com/tr?id=1151107670468235&ev=PageView&noscript=1"
           />
         </noscript>
       </head>
@@ -138,7 +132,7 @@ export default function RootLayout({
           <Suspense fallback={null}>
             <LayoutContent>{children}</LayoutContent>
 
-            {/* 🟣 Exibe o modal só na página inicial */}
+            {/* Exibe o modal só na home */}
             {pathname === "/" && <ModalCEP />}
           </Suspense>
         </CartProvider>
