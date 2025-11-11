@@ -108,13 +108,6 @@ export const produtosNovidades: ProdutoNovidade[] = [
     discount: '-80%',
   },
   {
-    slug: 'maleta-maquiagem-barbie-glam',
-    title: 'Maleta de Maquiagem Barbie Glam Rosa',
-    img: 'https://rihappy.vtexassets.com/arquivos/ids/8136450-600-auto?v=638796449494430000&width=600&height=auto&aspect=true 600w,https://rihappy.vtexassets.com/arquivos/ids/8136450-800-auto?v=638796449494430000&width=800&height=auto&aspect=true 800w,https://rihappy.vtexassets.com/arquivos/ids/8136450-1200-auto?v=638796449494430000&width=1200&height=auto&aspect=true 1200w',
-    price: 'R$ 53,24',
-    discount: '-80%',
-  },
-  {
     slug: 'pokemon-ev10-triplo',
     title: 'Jogo Pokémon EV10.5 Triplo',
     img: 'https://rihappy.vtexassets.com/arquivos/ids/8805627-600-auto?v=638917485760730000&width=600&height=auto&aspect=true 600w,https://rihappy.vtexassets.com/arquivos/ids/8805627-800-auto?v=638917485760730000&width=800&height=auto&aspect=true 800w,https://rihappy.vtexassets.com/arquivos/ids/8805627-1200-auto?v=638917485760730000&width=1200&height=auto&aspect=true 1200w',

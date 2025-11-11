@@ -474,9 +474,9 @@ function validarCEP(cep: string) {
         </div>
 
         <img
-          src="https://io2.vtex.com/checkout-ui/v6.133.1/img/payment-pix-head.svg"
+          src="https://img.icons8.com/color/48/pix.png"
           alt="Pix"
-          className="mx-auto w-[140px] mb-8"
+          className="mx-auto w-[100px] mb-8"
         />
 
         <div className="flex items-center justify-center gap-6 text-[#444] text-[13px]">
@@ -632,9 +632,9 @@ function validarCEP(cep: string) {
       </button>
 
       <img
-        src="https://io2.vtex.com/checkout-ui/v6.133.1/img/payment-pix-head.svg"
+        src="https://img.icons8.com/color/48/pix.png"
         alt="Pix"
-        className="mx-auto w-[80px] mb-3"
+        className="mx-auto w-[50px] mb-3"
       />
 
       {/* 🕒 Temporizador em tempo real */}

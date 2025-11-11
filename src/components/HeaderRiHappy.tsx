@@ -268,7 +268,7 @@ export default function HeaderRiHappy() {
       <div className="flex gap-4">
         {[
           { label: 'Departamentos', href: '/' },
-          { label: 'Crianças', href: '/dia-das-criancas' },
+          { label: 'Happy Friday', href: '/happy-friday' },
           { label: 'Novidades', href: '/novidades' },
           { label: 'Importados', href: '/produtos-importados' },
           { label: 'Exclusivos', href: '/produtos-exclusivos' },
